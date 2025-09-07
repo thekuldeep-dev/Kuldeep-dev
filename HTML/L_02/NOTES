@@ -1,0 +1,32 @@
+HTML = Hyper Text Markup Language.
+Hyper TExt Means in HTMl we have hyperlink facility.
+
+H1 tag not only tells about size, its tell that inside H1 tag is very High priority in all web page.
+In a webpage , only one H1 tag is recommeded, if you write more than 1 its don't shows error but its not recommended.
+
+
+Firslty H1, then H2 , then H3 , etc. Don't direclty jump.
+
+pr tag for paragragp,
+hr tag for line draw.
+br tag for one line gap.
+
+list 2 types:-
+                ordered(ol)
+                unordered(ul)
+
+For link create we use anchor tag    
+ <!-- anchor tag -->
+    <a href="https://www.youtube.com/watch?v=IJeSR-LJBnk&list=RDIJeSR-LJBnk&start_radio=1">Ishq Song</a>
+
+    <!-- For load on different tag -->
+    <a href="https://www.youtube.com/watch?v=IJeSR-LJBnk&list=RDIJeSR-LJBnk&start_radio=1" target="_blank">Ishq       
+
+
+    href and target is attribute.
+    attribute are who shows the property of IShq song in this example .   these are written inside tag.
+
+
+
+Image tag
+

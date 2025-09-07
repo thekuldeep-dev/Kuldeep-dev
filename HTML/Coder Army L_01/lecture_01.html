@@ -1,0 +1,92 @@
+Internet:- we use internet to communicate one device with another device.
+
+
+Like post office required adrress to send post , thats like that internet required IP adress to share one device data to another device.(IP == Internet Protocol).
+
+
+and Ip adress is not permanent adress, after the task Internet off, and you again turn on Interet , you get new IP Adress.
+
+
+and if you want to check what your IP adress , you see on whats my IP adress website.
+
+Server is another computer that serve file what we want. and all webistes are stored in servers.
+
+Our IP adress is provide by ISP(Interet Service provider). As we internet turn on , isp give us IP adress.
+
+
+As we prvious study , that for commincation of data from one to another computer we need a IP adress of both but if we search a webiste , we dont have Ip adreess of that another computer(Server) where website stores . So in that case DNS(Domain Name system) maintains a book of website IP adress stores, like google, microsoft or etc. 
+so as we search a website , then firsly request going towards to DNS , then DNS tell the IP adresss of webiste, and after we know both computers IP adress then both devices communicate each other.
+NSLookup webiste tells the IP adress of webistes.
+
+
+website search process:- as we search webiste like google.com , then firstly DNS seach webiste on our own browser and after that not found IP adress of that file its transfer to the root server(only 13 world wide), then its also dont have ip adresses of that webiste , then its see its webiste type is .com , .in , or other after its tranfer requrst to near by TLD server of same .com files server, then its also dont tell IP adress its also send request towards authritative server then its tell the IP adress.
+
+and when we study bakened we also study about why root and TLD server have not direct IP adress.
+
+
+
+Lets discuss a scenario in which we search chat of anjali on instagram but due to server down , our outup take 5 mins delay to show output and in that if internet is off due to any reasons , the isp take our ip adress away and in same tim e a new user turn on internet and get my same ip adress and after 5 mins server send chat to same ip address user that is new user. but its not happening becuase mac adress come in role. so message dont deliver only via ip adress.
+
+IP adress is dynamic(no permanent)
+mac(medium acces control) address is permanent(actual device adress).
+
+
+IP adrresses is divide in 2 part:- 
+                                    1. Public IP(its tells my website what is my ip, its shows router IP adrress.)
+                                    its unique in Global netwrok(router IP)
+                                    2. Private IP(its fixed in 3 parts.)(its within the network.)
+                                    so its unique in local network.
+
+                                    The private IP address ranges defined by the Internet Assigned Numbers Authority (IANA) are as follows:
+Class A: 10.0.0.0 to 10.255.255.255 (over 16 million addresses). 
+
+Class B: 172.16.0.0 to 172.31.255.255 (approximately 1 million addresses). 
+
+Class C: 192.168.0.0 to 192.168.255.255 (65,536 addresses). 
+
+These ranges are reserved for private networks, such as home and office networks, and are not routable on the public internet. 
+
+
+Port No. :-
+            Its come in role when multiple tabs opened in browser and computer get the message from server but dont know about whch tabs to sent the message but wiht the help of port no. with ip and mac address its message gone to right destination.
+
+            eg: like http port no. is 80
+                https - 443
+            Port no. is unsigned(its never -ive.)
+            If port no. = 16 bit unsigned then we able to generate highest port no is 2^16-1(-1 due to counting start from 0)    
+
+                
+
+http vs https :-
+                In https its secure, its some adress is hidden.
+                But in http is not secure or hidden.
+                
+                
+IP adrress(IPV4) is 32 bit number.(8 bit divided in 4 parts.)       
+Total 2^32 = 4.3 billion IP adrresses allocate available. but in current world device already reach out of 10 billion , so when all are come online than that in that case IPV6 comes in role. 
+IPV6 is 128 bit number.  2^128 = ip adrress able to generate.
+
+
+
+Generally peoples think one device has one mac adrress but its not true, we have multiple mac adress, check by run this ipconfig /all on cmd.
+
+and in mac or apple , air drop is done by mac adrress that are connected in local network.
+mac adreess in device is not only becuase every things that shares data like bluetooth, wifi, nearby share, or other way , every one have their own mac adrress.
+
+
+NOw imagine you are begginer , you want to transfer data from one computer to another computer so a simple person uses pen drive , its done the work but its very manully.
+so after we using a cables to connect system to share data its good but not scalable.
+so after we uses switch, every computer connect to switch , its data from every computer send to destination computer. and its scalable. Thats the way every company create their own local network.
+
+
+But if these company want to their data but these are not connected so in this ROuter came in role , its connected company local network with other companies.
+
+and that these small local communicate each other via router , its know as internet.
+
+Inside router = router -> switch -> wac(wirless access control)
+
+
+VPN(Virtual private network)
+
+
+Web development is only a communicate between client and server, when we search website server sends the HTML , CSS, JS file to browser then webiste open in our website.
