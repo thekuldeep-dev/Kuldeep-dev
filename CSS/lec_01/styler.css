@@ -1,0 +1,39 @@
+h1{
+    background-color: rgb(240, 105, 132);
+}
+
+h2{
+    background-color: lightblue;
+}
+
+#first{
+    background-color: violet;
+}
+
+.third{
+    background-color: rgb(232, 208, 100);
+}
+/* h2{
+    background-color: hsl(110, 86%, 70%);
+} */
+
+/* h2{
+    background-color: #639747 ;
+} */
+
+
+/* font */
+
+h1{
+    font-size: 50px;   
+    /* pixel is smallest unit of image */
+    /* pixel size on google is wrong, becuase pixel size depent on specific screen size.
+    1 pixel take 3bytes. */
+}
+
+ul{
+    font-size: 20px;
+}
+li{
+    font-size: 1em;
+}
