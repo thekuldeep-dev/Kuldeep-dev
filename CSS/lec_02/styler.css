@@ -1,0 +1,28 @@
+/* span{
+    color: rgb(40, 246, 178);
+} */
+
+*{
+    margin: px;
+    border-radius: 35px;
+    padding: auto;
+}
+h1{
+    background-color: cadetblue;
+    width: 280px;
+    box-sizing: content-box;
+}
+
+h2{
+    background-color: cornflowerblue;
+    width: 280px;
+    box-sizing: border-box;
+    padding: 21px;
+}
+
+span{
+    /* In span its only visual showing chnages after applying pladding, margin but in real its not. */
+    background-color: yellowgreen;
+    height: 200px;
+    /* margin: 100px; */
+}

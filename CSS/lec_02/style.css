@@ -1,0 +1,32 @@
+h1{
+    background-color: orange;
+    height: 35px;
+    width: 350px;
+    /* long way:- */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color:black ; */
+
+    /* Short way:- */
+    border: 5px solid black;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+h2{
+    width: 280px;
+    background-color: plum;
+    border: 5px solid black;
+    padding: 5px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+p{
+    border: 5px solid rgb(108, 203, 240);
+    background-color: chartreuse;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 40px;
+}
